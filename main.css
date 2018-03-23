@@ -1,0 +1,107 @@
+body {
+  font-family: aktiv-grotesk, sans-serif;
+  color: white;
+  background: #0828cc;
+  box-sizing: border-box;
+  background-image: url(https://shopify-customerio.s3.amazonaws.com/tools/image_attachment/image/custom_resized_ac4c87b4-71f3-4b9d-8284-62f07190fc46.png);
+  width: 100vw;
+  height: 100vh;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: stretch;
+  width: 100%;
+  height: 7%;
+  z-index: 500;
+  position: relative;
+  margin: 50px 0 0 0;
+}
+.dbco {
+  color: inherit;
+  font-weight: 400;
+  size: 18px;
+  line-height: 39px;
+}
+#pic {
+  width: 40px;
+  height: 40px;
+}
+.bpw {
+  color: inherit;
+  font-size: 11px;
+  line-height: 1.7;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.lists {
+  display: inline;
+  padding: 3.5em;
+  font-weight: 500;
+}
+.subscribe {
+  font-size: 15px;
+  font-weight: 300;
+  size: 11px;
+  line-height: 19px;
+  border: 1.2px solid white;
+  padding: 10px;
+  border-radius: 50px;
+}
+.main {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 190px auto 0 auto;
+  line-height: 2em;
+}
+.main_header {
+  color: inherit;
+  font-size: 56px;
+  line-height: 1.22;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.main-para {
+  position: relative;
+  margin-top: 35px;
+  font-size: 17px;
+  margin: 0 auto 2em auto;
+  text-align: center;
+}
+.strtex {
+  border: 2px solid white;
+  color: #0828cc;
+  background: white;
+  border-radius: 50px;
+  font-size: 10px;
+  padding: 1.01em 2em;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.side-ways {
+  transform: rotate(-90deg);
+  margin-bottom: 2em;
+}
+.footer {
+  margin-top: 15em;
+  bottom: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: stretch;
+}
+.scroll {
+  margin: 4em 8.5em 0 0;
+}
